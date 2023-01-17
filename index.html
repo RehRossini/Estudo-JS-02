@@ -104,7 +104,7 @@
             directionX: 1,
             directionY: 1,
             _calcPosition: function(){
-                if(this.y > field.h) {
+                if(this.y > field.h - this.r) {
                     this._reverseY()
                 }
             },
